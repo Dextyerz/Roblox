@@ -14,7 +14,13 @@ function get(thistype)
 end
 
 succ, err = pcall(function()
-    menus.Diamonds.LayoutOrder = 99988
+    menus.Diamonds.LayoutOrder = 99986
+end)
+if err then
+    print(err)
+end
+succ, err = pcall(function()
+    menus['Fantasy Coins'].LayoutOrder = 99988
 end)
 if err then
     print(err)
