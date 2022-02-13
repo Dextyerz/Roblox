@@ -26,29 +26,36 @@ if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Tech Coins'].LayoutOrder = 99990
+    menus['Rainbow Coins'].LayoutOrder = 99994
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Gingerbread'].LayoutOrder = 99992
+    menus['Tech Coins'].LayoutOrder = 99995
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Fantasy Coins'].LayoutOrder = 99994
+    menus['Gingerbread'].LayoutOrder = 99993
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus.Coins.LayoutOrder = 99996
+    menus['Fantasy Coins'].LayoutOrder = 99996
 end)
 if err then
     print(err)
 end
+succ, err = pcall(function()
+    menus.Coins.LayoutOrder = 99997
+end)
+if err then
+    print(err)
+end
+
 menus.UIListLayout.HorizontalAlignment = 2
 
 _G.MyTypes = {}
