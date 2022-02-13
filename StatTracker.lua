@@ -20,37 +20,25 @@ if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Fantasy Coins'].LayoutOrder = 99988
-end)
-if err then
-    print(err)
-end
-succ, err = pcall(function()
     menus['Rainbow Coins'].LayoutOrder = 99994
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Tech Coins'].LayoutOrder = 99995
+    menus['Tech Coins'].LayoutOrder = 99996
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Gingerbread'].LayoutOrder = 99993
+    menus['Fantasy Coins'].LayoutOrder = 99998
 end)
 if err then
     print(err)
 end
 succ, err = pcall(function()
-    menus['Fantasy Coins'].LayoutOrder = 99996
-end)
-if err then
-    print(err)
-end
-succ, err = pcall(function()
-    menus.Coins.LayoutOrder = 99997
+    menus.Coins.LayoutOrder = 1000000
 end)
 if err then
     print(err)
